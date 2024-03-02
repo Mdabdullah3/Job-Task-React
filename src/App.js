@@ -1,9 +1,10 @@
 import React from 'react';
-
+import { RouterProvider } from 'react-router-dom';
+import routes from './router/routes';
 const App = () => {
   return (
     <div>
-      <h1 className='bg-primary'>App Running</h1>
+      <RouterProvider router={routes} />
     </div>
   );
 };
