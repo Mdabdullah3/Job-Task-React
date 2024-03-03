@@ -5,6 +5,7 @@ import Patner from "../Components/Home/Patner";
 import Trusted from "../Components/Home/Trusted";
 import Work from "../Components/Home/Work";
 import Snap from "../Components/Home/Snap";
+import Report from "../Components/Home/Report";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Trusted />
       <Work />
       <Snap />
+      <Report />
     </div>
   );
 };
