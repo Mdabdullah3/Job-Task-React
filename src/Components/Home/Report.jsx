@@ -3,7 +3,7 @@ import reportImg from "../../Assets/snap.png";
 const Report = () => {
   return (
     <div>
-      <div className="w-9/12 mx-auto mt-20 relative">
+      <div className="w-9/12 mx-auto mt-16 relative">
         <img src={reportImg} alt="" />
         <div className=" tracking-wider absolute top-52 right-20 text-center">
           <h1 className="text-xl font-bold">The Ways We Work</h1>

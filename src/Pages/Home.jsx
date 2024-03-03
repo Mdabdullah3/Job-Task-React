@@ -6,6 +6,7 @@ import Trusted from "../Components/Home/Trusted";
 import Work from "../Components/Home/Work";
 import Snap from "../Components/Home/Snap";
 import Report from "../Components/Home/Report";
+import Service from "../Components/Home/Service";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Work />
       <Snap />
       <Report />
+      <Service />
     </div>
   );
 };
