@@ -3,7 +3,7 @@ import { RouterProvider } from 'react-router-dom';
 import routes from './router/routes';
 const App = () => {
   return (
-    <div>
+    <div className='font-serif'>
       <RouterProvider router={routes} />
     </div>
   );
