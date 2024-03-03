@@ -12,7 +12,7 @@ const Navbar = () => {
         <div>
           <img src={logo} className="" alt="" />
         </div>
-        <div className="mt-2 flex items-center gap-3">
+        <div className="mt-2 flex items-center gap-3 tracking-wider">
           <div className="relative">
             <button
               onClick={() => setShowProductDropdown(!showProductDropdown)}
@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <div className="flex gap-4 items-center mt-2">
+      <div className="flex gap-4 items-center mt-2 tracking-wider">
         <h1 className="flex items-center gap-1">
           <TbWorld size={20} /> EN
         </h1>
