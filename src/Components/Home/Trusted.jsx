@@ -1,12 +1,15 @@
 import React from "react";
-
+import bg from "../../Assets/Group.png";
 const Trusted = () => {
   return (
-    <div className="mt-36">
+    <div className="mt-48 relative text-secondary">
+      <div className=" absolute -top-20 left-1/2">
+        <img src={bg} alt="" className="" />
+      </div>
       <h1 className="text-center text-4xl font-bold tracking-wider mx-auto">
         Collaborate without <br /> constraints
       </h1>
-      <div className="flex w-9/12 mx-auto items-center gap-10 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-9/12 mx-auto items-center gap-10 mt-10">
         <div className="h-40">
           <h1 className="text-lg tracking-wider font-bold py-4">
             Free Forever
