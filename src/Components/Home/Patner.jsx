@@ -14,7 +14,7 @@ const Patner = () => {
       <div className="flex items-center justify-between mt-10 flex-wrap">
         {image.map((img) => (
           <div>
-            <img src={img} alt="" />
+            <img src={img} alt="" className="" />
           </div>
         ))}
       </div>
