@@ -2,7 +2,7 @@ import React from "react";
 import work from "../../Assets/hybridwork.png.png";
 const Work = () => {
   return (
-    <div className="flex items-center justify-between w-9/12 mt-10 mx-auto text-secondary">
+    <div className="lg:flex items-center justify-between w-11/12 md:w-9/12 mt-10 mx-auto text-secondary">
       <div className="flex-1">
         <h1 className="text-4xl leading-tight tracking-wider font-bold">
           Work together, <br /> wherever you work

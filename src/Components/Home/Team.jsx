@@ -4,12 +4,12 @@ import { IoCheckmarkSharp } from "react-icons/io5";
 import icons from "../../Assets/div.png";
 const Team = () => {
   return (
-    <div className="w-9/12 mx-auto mt-20">
+    <div className="md:w-9/12 w-11/12 mx-auto mt-20">
       <h1 className="text-4xl font-bold tracking-wider">
         Built for all kinds of teams
       </h1>
       <div className="mt-8 ">
-        <div className="tracking-wider">
+        <div className="tracking-wider space-y-3">
           <button className="px-5 py-3 rounded-full border-[1px] border-[#F1F3FD] bg-[#F1F3FD] mr-2">
             UX & Design
           </button>
@@ -33,7 +33,7 @@ const Team = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-between mt-10 items-start">
+      <div className="lg:flex justify-between mt-10 items-start">
         <div className="flex-1 mt-4 tracking-wider">
           <h1 className="flex items-center gap-4">
             <IoCheckmarkSharp />{" "}

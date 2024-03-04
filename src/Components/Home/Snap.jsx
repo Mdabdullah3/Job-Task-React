@@ -2,7 +2,7 @@ import React from "react";
 import image from "../../Assets/M3_integrations_all_integrations.png.png";
 const Snap = () => {
   return (
-    <div className="flex items-center justify-between w-9/12 mt-10 mx-auto text-secondary gap-20">
+    <div className="lg:flex items-center justify-between w-11/12 md:w-9/12 mt-10 mx-auto text-secondary gap-20">
       <div className="flex-1">
         <img src={image} alt="" className="" />
       </div>

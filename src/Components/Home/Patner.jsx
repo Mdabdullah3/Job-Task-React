@@ -7,14 +7,14 @@ import patner4 from "../../Assets/deloitte.svg.png";
 const Patner = () => {
   const image = [patner, patner1, patner2, patner3, patner4];
   return (
-    <div className="w-9/12 mx-auto mt-28">
+    <div className="w-9/12 mx-auto mt-20 lg:mt-28">
       <h1 className="text-gray-500 text-center tracking-wider">
         Trusted By 45M+ User
       </h1>
-      <div className="flex items-center justify-between mt-10 flex-wrap">
+      <div className="grid grid-cols-2 items-center mt-10 gap-10 md:grid-cols-3 lg:grid-cols-5">
         {image.map((img) => (
           <div>
-            <img src={img} alt="" className="" />
+            <img src={img} alt="" className="mx-auto" />
           </div>
         ))}
       </div>

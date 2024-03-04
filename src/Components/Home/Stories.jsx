@@ -34,7 +34,7 @@ const Stories = () => {
   ];
   return (
     <div>
-      <h1 className="text-4xl font-bold tracking-wider text-center mt-32">
+      <h1 className="text-4xl font-bold tracking-wider text-center mt-20 md:mt-32">
         Loved by the world's best teams
       </h1>
       <div className="flex items-center justify-center mt-5">
@@ -42,12 +42,14 @@ const Stories = () => {
           See all customer stories &#8594;
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-9/12 mx-auto mt-20 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-11/12 md:w-9/12 mx-auto mt-20 gap-10">
         {stories.map((story) => (
           <div key={story.id} className="w-11/12 mx-auto">
             <img src={story.img} alt="" className="w-8/12 mb-7" />
-            <p className="text-gray-500 tracking-wider h-40">{story.text}</p>
-            <div className="mt-10 flex items-center gap-4">
+            <p className="text-gray-500 tracking-wider  lg:h-40">
+              {story.text}
+            </p>
+            <div className="md:mt-10 mt-4 flex items-center gap-4">
               <img src={story.avatar} alt="" />
               <div className="text-gray-500 tracking-wider text-[13px]">
                 <h1>{story.userName}</h1>

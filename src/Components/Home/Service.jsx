@@ -2,12 +2,12 @@ import React from "react";
 import BrainstormingImg from "../../Assets/Brainstormwithoutshadow.jpg.png";
 const Service = () => {
   return (
-    <div className="w-9/12 mx-auto mt-20">
+    <div className="md:w-9/12 w-11/12 mx-auto mt-20">
       <h1 className="text-4xl font-bold tracking-wider">
         Built for the way you work
       </h1>
       <div className="mt-8 tracking-wider">
-        <div>
+        <div className=" space-y-3">
           <button className="px-5 py-3 rounded-full border-[1px] border-[#F1F3FD] bg-[#F1F3FD] mr-2">
             Brainstorming
           </button>
@@ -31,7 +31,7 @@ const Service = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-between mt-10 items-start">
+      <div className="lg:flex justify-between mt-10 items-start">
         <div className="flex-1 mt-4 tracking-wider">
           <h1 className="text-lg">Brainstorming</h1>
           <p className="mt-10 w-9/12 text-gray-500">
