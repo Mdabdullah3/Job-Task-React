@@ -5,8 +5,8 @@ import background from "../Assets/Path 10741.png";
 const Footer = () => {
   return (
     <div className="bg-[#02033B] mt-20">
-      <div className="w-9/12 mx-auto text-white flex justify-between items-start pt-20">
-        <div className=" flex justify-between flex-1">
+      <div className="md:w-9/12 w-10/12 mx-auto text-white md:flex justify-between items-start pt-20">
+        <div className=" md:flex justify-between flex-1">
           <div>
             <h1 className="font-bold tracking-wider text-xl">
               Scan. Detect. Remove.
@@ -34,7 +34,7 @@ const Footer = () => {
             </h1>
           </div>
           <div>
-            <h1 className="text-3xl font-bold">Miro.</h1>
+            <h1 className="text-3xl font-bold lg:mt-0 mt-4">Miro.</h1>
             <h1 className="border-[1px] border-white mt-4"> </h1>
             <div className="text-[#FFC247] flex flex-col gap-5 mt-5 text-sm">
               <button className="flex items-center gap-4 tracking-wider font-[600]">
@@ -60,9 +60,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 ">
+        <div className="flex-1 lg:mt-0 mt-5">
           <div
-            className="bg-[#FFC247] text-secondary rounded-3xl w-8/12 mx-auto px-6 py-5"
+            className="bg-[#FFC247] text-secondary rounded-3xl w-11/12 lg:w-8/12 mx-auto px-6 py-5"
             style={{
               backgroundImage: `url(${background})`,
               backgroundRepeat: "no-repeat",
@@ -77,7 +77,7 @@ const Footer = () => {
               Receive the latest mobile security news, exclusive discounts &
               offers straight to your inbox!
             </p>
-            <div className="w-full relative mt-5">
+            <div className="w-full relative mt-5 flex">
               <input
                 type="email"
                 name=""
@@ -85,15 +85,15 @@ const Footer = () => {
                 placeholder="email address"
                 id=""
               />
-              <button className="px-5 -ml-8 h-10 bg-secondary text-white rounded-r-full">
+              <button className="px-3 -ml-8 h-10 bg-secondary text-white rounded-r-full">
                 submit
               </button>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-9/12 mx-auto">
-        <h1 className="text-white w-7/12 pt-14 tracking-wider text-[13px] pb-20">
+      <div className="lg:w-9/12 w-10/12 mx-auto">
+        <h1 className="text-white mlg:w-7/12 pt-14 tracking-wider text-[13px] pb-20">
           Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
           registered in the U.S. and other countries. App Store is a service
           mark of Apple Inc. Android, Google Play and the Google Play logo are
