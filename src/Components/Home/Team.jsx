@@ -1,5 +1,7 @@
 import React from "react";
 import uiux from "../../Assets/uxdesignwithoutshadow.jpg.png";
+import { IoCheckmarkSharp } from "react-icons/io5";
+import icons from "../../Assets/div.png";
 const Team = () => {
   return (
     <div className="w-9/12 mx-auto mt-20">
@@ -33,15 +35,29 @@ const Team = () => {
       </div>
       <div className="flex justify-between mt-10 items-start">
         <div className="flex-1 mt-4 tracking-wider">
-          <h1 className="text-lg">Brainstorming</h1>
-          <p className="mt-10 w-9/12 text-gray-500">
-            Unleash creative ideas and build on them with the help of sticky
-            notes, images, mind maps, videos, drawing capabilities — the list
-            goes on.
-          </p>
-          <button className="mt-4 bg-primary px-8 tracking-wider py-3 rounded-full text-white">
+          <h1 className="flex items-center gap-4">
+            <IoCheckmarkSharp />{" "}
+            <span className="text-gray-500">Build low-fi wireframes</span>
+          </h1>
+          <h1 className="flex items-center gap-4 my-3">
+            <IoCheckmarkSharp />
+            <span className="text-gray-500">
+              Involve stakeholders in the design process
+            </span>
+          </h1>
+          <h1 className="flex items-center gap-4">
+            <IoCheckmarkSharp />{" "}
+            <span className="text-gray-500">Run engaging design workshops</span>
+          </h1>
+          <button className="mt-7  tracking-wider  text-primary">
             Learn More &#8594;
           </button>
+          <div className="mt-7">
+            <h1 className="mb-2 text-gray-500">
+              Integrate your favorite tools
+            </h1>
+            <img src={icons} alt="" />
+          </div>
         </div>
         <div className="flex-2">
           <img src={uiux} alt="" className="w-full" />

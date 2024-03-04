@@ -39,7 +39,7 @@ const Service = () => {
             notes, images, mind maps, videos, drawing capabilities — the list
             goes on.
           </p>
-          <button className="mt-4 bg-primary px-8 tracking-wider py-3 rounded-full text-white">
+          <button className="mt-4  tracking-wider py-3  text-primary">
             Learn More &#8594;
           </button>
         </div>
