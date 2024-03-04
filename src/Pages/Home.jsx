@@ -9,6 +9,7 @@ import Report from "../Components/Home/Report";
 import Service from "../Components/Home/Service";
 import Team from "../Components/Home/Team";
 import Stories from "../Components/Home/Stories";
+import Footer from "../Shared/Footer";
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Service />
       <Team />
       <Stories />
+      <Footer />
     </div>
   );
 };
