@@ -7,6 +7,7 @@ import Work from "../Components/Home/Work";
 import Snap from "../Components/Home/Snap";
 import Report from "../Components/Home/Report";
 import Service from "../Components/Home/Service";
+import Team from "../Components/Home/Team";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Snap />
       <Report />
       <Service />
+      <Team />
     </div>
   );
 };
