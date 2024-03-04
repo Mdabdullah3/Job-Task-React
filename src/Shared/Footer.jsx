@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookSquare, FaMinus, FaYoutube } from "react-icons/fa";
 import { FaSquareTwitter } from "react-icons/fa6";
+import background from "../Assets/Path 10741.png";
 const Footer = () => {
   return (
     <div className="bg-[#02033B] mt-20">
@@ -60,7 +61,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex-1 ">
-          <div className="bg-[#FFC247] text-secondary rounded-3xl w-8/12 mx-auto px-6 py-5">
+          <div
+            className="bg-[#FFC247] text-secondary rounded-3xl w-8/12 mx-auto px-6 py-5"
+            style={{
+              backgroundImage: `url(${background})`,
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "contain",
+            }}
+          >
             <h1 className="font-bold tracking-wider text-xl">
               Sign up to our newsletter
             </h1>
