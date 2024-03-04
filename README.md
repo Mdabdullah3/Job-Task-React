@@ -35,9 +35,9 @@ git clone https://github.com/Mdabdullah3/Job-Task-React.git
 
 1. Navigate to the project directory:
 
-   ```bash
+```bash
    cd agencyx
-   ```
+```
 
 2. Install dependencies:
 
